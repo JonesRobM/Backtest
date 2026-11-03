@@ -1,0 +1,17 @@
+[project]
+name = "backtest"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "seaborn>=0.13.2",
+    "streamlit>=1.66.1",
+    "yfinance>=1.8.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
